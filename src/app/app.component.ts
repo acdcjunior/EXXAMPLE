@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import * as _ from 'underscore';
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
-  templateUrl: 'app.component.html',
+  template: `<h1>{{title}}</h1>`,
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Underscore: '+ _.reduce;
 }

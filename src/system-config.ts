@@ -9,10 +9,15 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+	'underscore': 'vendor/underscore'
 };
 
 /** User packages configuration. */
 const packages: any = {
+	'underscore':{
+		main: 'underscore.js',
+		format: 'cjs'
+	}
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
